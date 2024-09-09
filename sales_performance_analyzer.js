@@ -19,10 +19,10 @@ console.log("Performance Rating",PerformanceRating)
 
 //Develop findTopAndBottomPerformers function
 function findTopandBottomPerformer(salesRecordsData)
-{let topPerformer = array.prototype.reduce(AverageSales) => Math.max(salesRecordsData)
-let bottomPerformer = array.prototype.reduce(salesRecordsData)=> Math.min(salesRecordsData)
-return ("Top Performer",topPerformer),
-("Bottom Performer",bottomPerformer)}
+{let topPerformer = array.prototype.reduce(AverageSales) return Math.max(salesRecordsData)
+let bottomPerformer = array.prototype.reduce(salesRecordsData) return Math.min(salesRecordsData)
+console.log("Top Performer",topPerformer),
+console.log("Bottom Performer",bottomPerformer)}
 
 //Combine Functions to Generate a Performance Report
 function generatePerformanceReport{console.log("Average Sales:",AverageSales)
