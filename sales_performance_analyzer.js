@@ -5,16 +5,16 @@ function calculateAverageSales(salesRecordsData)
 let Average = totalSales/salesRecordsData.length
 return Average}
 let AverageSales = calculateAverageSales(salesRecordsData);
-console.log('Average Sales:',AverageSales)
+console.log('Average Sales:',AverageSales);
 
 function determinePerformanceRating (AverageSales)
-{if (AverageSales > 10000) {console.log('Excellent')}},
-{if (7000 < AverageSales < 10000) {console.log('Good')}},
-{if (4000 < AverageSales < 7000) {console.log('Satisfactory')}},
-{if (AverageSales < 4000) {console.log('Needs Improvement')}},
-}
+{if (AverageSales > 10000) {console.log('Excellent')};
+if (7000 < AverageSales < 10000) {console.log('Good')};
+if (4000 < AverageSales < 7000){console.log('Satisfactory')};
+if (AverageSales < 4000) {console.log('Needs Improvement')}};
 let PerformanceRating = determinePerformanceRating(AverageSales)
 console.log("Performance Rating",PerformanceRating)
+
 
 function findTopandBottomPerformer(salesRecordsData)
 {let topPerformer = array.prototype.reduce(AverageSales) => Math.max(salesRecordsData)
